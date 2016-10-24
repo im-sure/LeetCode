@@ -1,8 +1,9 @@
+import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args){
-		_334ReverseString test = new _334ReverseString();
-		String result = test.reverseString("hello");
+		_412FizzBuzz test = new _412FizzBuzz();
+		List<String> result = test.fizzBuzz(20);
 		System.out.println(result);
 	}
 }
