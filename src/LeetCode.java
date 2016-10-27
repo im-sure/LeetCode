@@ -2,10 +2,10 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args){
-		_389FindTheDifference test = new _389FindTheDifference();
-		String a = "abcd";
-		String b = "abcde";
-		char result = test.findTheDifference(a, b);
+		_383RansomNote test = new _383RansomNote();
+		String a = "bjaajgea";
+		String b = "affhiiicabhbdchbidghccijjbfjfhjeddgggbajhidhjchiedhdibgeaecffbbbefiabjdhggihccec";
+		boolean result = test.canConstruct(a, b);
 		System.out.println(result);
 	}
 }
