@@ -1,5 +1,5 @@
 
-public class _97InterleavingString {
+public class _097InterleavingString {
 	public boolean isInterleave(String s1, String s2, String s3) {
 		if (s3.length() != s1.length() + s2.length()) return false;
 	    boolean[][] table = new boolean[s1.length() + 1][s2.length() + 1];
