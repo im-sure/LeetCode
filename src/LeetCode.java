@@ -2,10 +2,9 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args){
-		_242ValidAnagram test = new _242ValidAnagram();
-		String s = "";
-		String t = "";
-		boolean result = test.isAnagram(s, t);
+		_169MajorityElement test = new _169MajorityElement();
+		int[] a = {1};
+		int result = test.majorityElement(a);
 		System.out.println(result);
 	}
 }
