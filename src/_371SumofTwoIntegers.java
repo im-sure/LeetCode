@@ -1,5 +1,5 @@
 
-public class _371SumOfTwoIntegers {
+public class _371SumofTwoIntegers {
 	public int getSum(int a, int b) {
 		int c = (a & b) << 1;
 		int d = a ^ b;
