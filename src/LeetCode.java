@@ -2,10 +2,9 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args){
-		_405ConvertANumberToHexadecimal test = new _405ConvertANumberToHexadecimal();
-		int a = -2147483648;
-		int b = -111110;
-		String result = test.toHex(a);
+		_326PowerOfThree test = new _326PowerOfThree();
+		int a = 27;
+		boolean result = test.isPowerOfThree(a);
 		System.out.println(result);
 	}
 }
