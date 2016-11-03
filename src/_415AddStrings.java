@@ -8,8 +8,8 @@ public class _415AddStrings {
         for (int i = 0; i < (l1 >= l2 ? l1 : l2); i++) {
         	int s = (l1 - i - 1 >= 0 ? num1.charAt(l1 - i - 1) - '0' : 0)
         			+ (l2 - i - 1 >= 0 ? num2.charAt(l2 - i - 1) - '0' : 0) + c;
-        	sum = (s >= 10 ? String.valueOf(s - 10) : String.valueOf(s)) + sum;
-        	c = s >= 10 ? 1 : 0;
+        	sum = String.valueOf(s % 10) + sum;
+        	c = s / 10;
         }
         if (c == 1) sum = "1" + sum;
         return sum;
