@@ -2,9 +2,9 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args){
-		_121BestTimeToBuyAndSellStock test = new _121BestTimeToBuyAndSellStock();
-		int[] a = {7,1,5,3,6,4};
-		int result = test.maxProfit(a);
+		_070ClimbingStairs test = new _070ClimbingStairs();
+		int a = 6;
+		int result = test.climbStairs(a);
 		System.out.println(result);
 	}
 }
