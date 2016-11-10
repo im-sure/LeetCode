@@ -1,11 +1,10 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Stack;
 
 public class _107BinaryTreeLevelOrderTraversalII {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
-    	Stack<List<Integer>> stack = new Stack<List<Integer>>();
     	List<List<Integer>> list = new ArrayList<List<Integer>>();
     	List<TreeNode> level = new ArrayList<TreeNode>();
     	List<Integer> value = new ArrayList<Integer>();
@@ -14,7 +13,7 @@ public class _107BinaryTreeLevelOrderTraversalII {
 	    	value.add(root.val);
     	}
     	while (!level.isEmpty()) {
-    		stack.push(value);
+    		list.add(value);
     		List<TreeNode> newLevel = new ArrayList<TreeNode>();
         	List<Integer> newValue = new ArrayList<Integer>();
     		Iterator<TreeNode> it = level.iterator();
@@ -32,7 +31,7 @@ public class _107BinaryTreeLevelOrderTraversalII {
     		level = newLevel;
     		value = newValue;
     	}
-    	while (!stack.isEmpty()) list.add(stack.pop());
+    	Collections.reverse(list);
     	return list;
     }
     
