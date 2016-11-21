@@ -2,9 +2,9 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_026RemoveDuplicatesFromSortedArray test = new _026RemoveDuplicatesFromSortedArray();
-		int[] a = {1,1};
-		int result = test.removeDuplicates(a);
-		System.out.println(result);
+		_119PascalsTriangleII test = new _119PascalsTriangleII();
+		int a = 3;
+		List<Integer> result = test.getRow(a);
+		System.out.println(result.toString());
 	}
 }
