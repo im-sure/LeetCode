@@ -2,9 +2,19 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_009PalindromeNumber test = new _009PalindromeNumber();
-		int a = 1235321;
-		boolean result = test.isPalindrome(a);
+		_036ValidSudoku test = new _036ValidSudoku();
+		char[][] a = {
+				{'.','.','.',  '.','.','.',  '.','.','.'},
+				{'.','.','.',  '.','.','.',  '3','.','.'},
+				{'.','.','.',  '1','8','.',  '.','.','.'},
+				{'.','.','.',  '7','.','.',  '.','.','.'},
+				{'.','.','.',  '.','1','.',  '9','7','.'},
+				{'.','.','.',  '.','.','.',  '.','.','.'},
+				{'.','.','.',  '3','6','.',  '1','.','.'},
+				{'.','.','.',  '.','.','.',  '.','.','.'},
+				{'.','.','.',  '.','.','.',  '.','2','.'}
+		};
+		boolean result = test.isValidSudoku(a);
 		System.out.println(result);
 	}
 }
