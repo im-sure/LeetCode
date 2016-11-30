@@ -2,17 +2,12 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_234PalindromeLinkedList test = new _234PalindromeLinkedList();
-		_234PalindromeLinkedList.ListNode one = test.new ListNode(1);
-		_234PalindromeLinkedList.ListNode two = test.new ListNode(2);
-		one.next = two;
-		//boolean result = test.containsNearbyDuplicate(a, b);
-		display(one);
-		System.out.println(one.val);
-	}
-	
-	public static void display(_234PalindromeLinkedList.ListNode tmp) {
-		tmp = tmp.next;
-		System.out.println(tmp.val);
+		_088MergeSortedArray test = new _088MergeSortedArray();
+		int[] a = {0,1,2,2,3,4,5,6,6,8,0,0,0,0,0,0,0};
+		int b = 10;
+		int[] c = {2,3,3,4,7,8,9};
+		int d = 7;
+		test.merge(a, b, c, d);
+		//System.out.println(a);
 	}
 }
