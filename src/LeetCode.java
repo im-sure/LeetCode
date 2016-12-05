@@ -2,9 +2,10 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_190ReverseBits test = new _190ReverseBits();
-		int a = 43261596;
-		int result = test.reverseBits(a);
-		System.out.println(result);
+		_001TwoSum test = new _001TwoSum();
+		int[] a = {0,3,4,0};
+		int b = 0;
+		int[] result = test.twoSum(a, b);
+		for (int i = 0; i < result.length; i++) System.out.println(result[i]);
 	}
 }
