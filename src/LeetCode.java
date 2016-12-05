@@ -2,9 +2,9 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_396RotateFunction test = new _396RotateFunction();
-		int[] a = {1,2,3,4,5,6,7,8,9,10};
-		int result = test.maxRotateFunction(a);
+		_190ReverseBits test = new _190ReverseBits();
+		int a = 43261596;
+		int result = test.reverseBits(a);
 		System.out.println(result);
 	}
 }
