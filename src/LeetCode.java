@@ -2,9 +2,9 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_414ThirdMaximumNumber test = new _414ThirdMaximumNumber();
-		int[] a = {1,2,-2147483648};
-		int result = test.thirdMax(a);
+		int[] a = {-2, 0, 3, -5, 2, -1};
+		_303RangeSumQuery_Immutable test = new _303RangeSumQuery_Immutable(a);
+		int result = test.sumRange(0, 5);
 		System.out.println(result);
 	}
 }
