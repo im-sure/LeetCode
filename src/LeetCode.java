@@ -2,9 +2,9 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_204CountPrimes test = new _204CountPrimes();
-		int a = 10;
-		int result = test.countPrimes(a);
+		_006ZigZagConversion test = new _006ZigZagConversion();
+		String a = "AB";
+		String result = test.convert(a, 1);
 		System.out.println(result);
 	}
 }
