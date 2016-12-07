@@ -2,9 +2,9 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		int[] a = {-2, 0, 3, -5, 2, -1};
-		_303RangeSumQuery_Immutable test = new _303RangeSumQuery_Immutable(a);
-		int result = test.sumRange(0, 5);
+		_204CountPrimes test = new _204CountPrimes();
+		int a = 10;
+		int result = test.countPrimes(a);
 		System.out.println(result);
 	}
 }
