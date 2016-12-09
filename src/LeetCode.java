@@ -2,9 +2,9 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_278FirstBadVersion test = new _278FirstBadVersion(3);
-		int a = 6;
-		int result = test.firstBadVersion(a);
+		_007ReverseInteger test = new _007ReverseInteger();
+		int a = -2147483648;
+		int result = test.reverse(a);
 		System.out.println(result);
 	}
 }
