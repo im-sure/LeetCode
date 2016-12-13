@@ -2,10 +2,9 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_165CompareVersionNumbers test = new _165CompareVersionNumbers();
-		String a = "1.0";
-		String b = "1";
-		int result = test.compareVersion(a, b);
+		_008StringtoIntegerATOI test = new _008StringtoIntegerATOI();
+		String a = "  - 321";
+		int result = test.myAtoi(a);
 		System.out.println(result);
 	}
 }
