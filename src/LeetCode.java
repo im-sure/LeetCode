@@ -2,9 +2,12 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_413ArithmeticSlices test = new _413ArithmeticSlices();
-		int[] a = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
-		int result = test.numberOfArithmeticSlices(a);
-		System.out.println(result);
+		_406QueueReconstructionByHeight test = new _406QueueReconstructionByHeight();
+		int[][] a = {{7,0},{4,4},{7,1},{5,0},{6,1},{5,2}};
+		int[][] result = test.reconstructQueue(a);
+		for (int i = 0; i < result.length; i++) {
+			System.out.print(result[i][0] + "  " + result[i][1]);
+			System.out.println();
+		}
 	}
 }
