@@ -2,12 +2,9 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_406QueueReconstructionByHeight test = new _406QueueReconstructionByHeight();
-		int[][] a = {{7,0},{4,4},{7,1},{5,0},{6,1},{5,2}};
-		int[][] result = test.reconstructQueue(a);
-		for (int i = 0; i < result.length; i++) {
-			System.out.print(result[i][0] + "  " + result[i][1]);
-			System.out.println();
-		}
+		_462MinimumMovesToEqualArrayElementsII test = new _462MinimumMovesToEqualArrayElementsII();
+		int[] a = {1,0,0,8,6};
+		int result = test.minMoves2(a);
+		System.out.println(result);
 	}
 }
