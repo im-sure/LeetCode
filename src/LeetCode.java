@@ -2,9 +2,9 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_260SingleNumberIII test = new _260SingleNumberIII();
-		int[] a = {1,2,1,3,2,5};
-		int[] result = test.singleNumber(a);
+		_167TwoSumIIInputArrayIsSorted test = new _167TwoSumIIInputArrayIsSorted();
+		int[] a = {2, 3, 4};
+		int[] result = test.twoSum(a, 6);
 		System.out.println(result[0] + " " + result[1]);
 	}
 }
