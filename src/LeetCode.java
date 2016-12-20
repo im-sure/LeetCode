@@ -2,9 +2,9 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_347TopKFrequentElements test = new _347TopKFrequentElements();
-		int[] a = {1};
-		List<Integer>  result = test.topKFrequent(a, 1);
-		for (int i : result) System.out.println(i);
+		_122BestTimeToBuyAndSellStockII test = new _122BestTimeToBuyAndSellStockII();
+		int[] a = {7, 1, 5, 3, 6, 4};
+		int result = test.maxProfit(a);
+		System.out.println(result);
 	}
 }
