@@ -3,9 +3,9 @@ import java.util.List;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_318MaximumProductOfWordLengths test = new _318MaximumProductOfWordLengths();
-		String[] a = {"abcw", "baz", "foo", "bar", "xtfn", "abcdef"};
-		int result = test.maxProduct(a);
+		_452MinimumNumberOfArrowsToBurstBalloons test = new _452MinimumNumberOfArrowsToBurstBalloons();
+		int[][] a = {{1, 2}, {3, 4}, {5, 6}, {7,8}};
+		int result = test.findMinArrowShots(a);
 		System.out.println(result);
 	}
 }
