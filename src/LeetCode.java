@@ -1,10 +1,12 @@
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_216CombinationSumIII test = new _216CombinationSumIII();
-		List<List<Integer>> result = test.combinationSum3(2, 18);
-    	System.out.print(result);
+		_022GenerateParentheses test = new _022GenerateParentheses();
+		List<String> result = test.generateParenthesis(3);
+    	System.out.println(result);
 	}
 }
