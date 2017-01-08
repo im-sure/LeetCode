@@ -6,7 +6,7 @@ public class _216CombinationSumIII {
     	return findNum(k, 1, n);
     }
     
-    public List<List<Integer>> findNum(int k, int start, int n) {
+    private List<List<Integer>> findNum(int k, int start, int n) {
     	if (start > n) return null;
     	List<List<Integer>> list = new ArrayList<List<Integer>>();
     	if (k > 1) {
