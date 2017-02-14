@@ -5,9 +5,9 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		int[] a = {1,2,3,3,3};
-		_398RandomPickIndex test = new _398RandomPickIndex(a);
-		int result = test.pick(3);
+		_386LexicographicalNumbers test = new _386LexicographicalNumbers();
+		int a = 13;
+		List<Integer> result = test.lexicalOrder(a);
     	System.out.println(result);
 	}
 }
