@@ -5,9 +5,9 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_089GrayCode test = new _089GrayCode();
-		int a = 3;
-		List<Integer> result = test.grayCode(a);
+		_062UniquePaths test = new _062UniquePaths();
+//		int a = 3;
+		int result = test.uniquePaths(3, 7);
     	System.out.println(result);
 	}
 }
