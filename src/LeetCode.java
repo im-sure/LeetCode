@@ -5,9 +5,9 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_062UniquePaths test = new _062UniquePaths();
-//		int a = 3;
-		int result = test.uniquePaths(3, 7);
+		_390EliminationGame test = new _390EliminationGame();
+		int a = 9;
+		int result = test.lastRemaining(a);
     	System.out.println(result);
 	}
 }
