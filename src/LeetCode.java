@@ -5,9 +5,9 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_491IncreasingSubsequences test = new _491IncreasingSubsequences();
-		int[] a = {4, 6, 7, 7};
-		List<List<Integer>> result = test.findSubsequences(a);
+		_153FindMinimumInRotatedSortedArray test = new _153FindMinimumInRotatedSortedArray();
+		int[] a = {4,5,6,0};
+		int result = test.findMin(a);
     	System.out.println(result);
 	}
 }
