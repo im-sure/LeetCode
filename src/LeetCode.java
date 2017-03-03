@@ -5,9 +5,9 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_215KthLargestElementInAnArray test = new _215KthLargestElementInAnArray();
-		int[] a = {3,2,1,5,6,4};
-		int result = test.findKthLargest(a, 2);
-		System.out.println(result);
+		_078Subsets test = new _078Subsets();
+		int[] a = {1, 2, 3};
+		List<List<Integer>> result = test.subsets(a);
+		for (List<Integer> l : result) System.out.println(l);
 	}
 }
