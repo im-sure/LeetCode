@@ -5,9 +5,9 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_300LongestIncreasingSubsequence test = new _300LongestIncreasingSubsequence();
-		int[] a = {10, 9, 2, 5, 3, 7, 101, 18};
-		int result = test.lengthOfLIS(a);
-		System.out.println(result);
+		_075SortColors test = new _075SortColors();
+		int[] a = {1,2,2,2,2,0,0,0,1,1};
+		test.sortColors(a);
+		for(int n : a) System.out.println(n);
 	}
 }
