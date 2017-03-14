@@ -5,12 +5,9 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_289GameOfLife test = new _289GameOfLife();
-		int[][] a = {{0,0,0,0},{0,1,1,0},{0,1,1,0},{0,0,0,0}};
-		test.gameOfLife(a);
-		for (int[] ar : a) {
-			for (int n : ar) System.out.print(n + " ");
-			System.out.println();
-		}
+		_011ContainerWithMostWater test = new _011ContainerWithMostWater();
+		int[] a = {2,3,4,5,18,17,6};
+		int result = test.maxArea(a);
+		System.out.println(result);
 	}
 }
