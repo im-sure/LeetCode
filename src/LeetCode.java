@@ -5,9 +5,12 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_039CombinationSum test = new _039CombinationSum();
-		int[] a = {2, 3, 6, 7};
-		List<List<Integer>> list = test.combinationSum(a, 7);
-		for (List<Integer> n : list) System.out.println(n);
+		_289GameOfLife test = new _289GameOfLife();
+		int[][] a = {{0,0,0,0},{0,1,1,0},{0,1,1,0},{0,0,0,0}};
+		test.gameOfLife(a);
+		for (int[] ar : a) {
+			for (int n : ar) System.out.print(n + " ");
+			System.out.println();
+		}
 	}
 }
