@@ -5,17 +5,9 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_129SumRootToLeafNumbers test = new _129SumRootToLeafNumbers();
-		_129SumRootToLeafNumbers.TreeNode t = test.new TreeNode(4);
-		_129SumRootToLeafNumbers.TreeNode l = test.new TreeNode(9);
-		_129SumRootToLeafNumbers.TreeNode r = test.new TreeNode(0);
-		_129SumRootToLeafNumbers.TreeNode lr = test.new TreeNode(1);
-		t.left = l;
-		t.right = r;
-		l.right = lr;
-//		int[] a = {2,3,4,5,18,17,6};
-		String a = "abcdefghijklmnopqrstuvwxyz";
-		int result = test.sumNumbers(t);
+		_388LongestAbsoluteFilePath test = new _388LongestAbsoluteFilePath();
+		String a = "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext";
+		int result = test.lengthLongestPath(a);
 		System.out.println(result);
 	}
 }
