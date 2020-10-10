@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_0967NumbersWithSameConsecutiveDifferences test = new _0967NumbersWithSameConsecutiveDifferences();
-		System.out.println(Arrays.toString(test.numsSameConsecDiff(2, 0)));
+		_0680ValidPalindromeII test = new _0680ValidPalindromeII();
+		System.out.println(test.validPalindrome("aba"));
 	}
 }
