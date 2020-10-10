@@ -6,7 +6,8 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-		_0680ValidPalindromeII test = new _0680ValidPalindromeII();
-		System.out.println(test.validPalindrome("aba"));
+    _0033SearchInRotatedSortedArray test = new _0033SearchInRotatedSortedArray();
+    int[] nums = new int[]{1};
+		System.out.println(test.search(nums, 3));
 	}
 }
