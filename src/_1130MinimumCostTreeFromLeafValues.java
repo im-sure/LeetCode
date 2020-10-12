@@ -20,7 +20,7 @@ public class _1130MinimumCostTreeFromLeafValues {
         min = value;
       }
     }
-    dp[start][end - 1] = min;s
+    dp[start][end - 1] = min;
     return dp[start][end - 1];
   }
 
