@@ -7,8 +7,8 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0095UniqueBinarySearchTreesII test = new _0095UniqueBinarySearchTreesII();
-    List<_0095UniqueBinarySearchTreesII.TreeNode> trees = test.generateTrees(8);
-		System.out.println(trees);
+    _1130MinimumCostTreeFromLeafValues test = new _1130MinimumCostTreeFromLeafValues();
+    int[] arr = new int[]{6, 2, 4};
+		System.out.println(test.mctFromLeafValues(arr));
 	}
 }
