@@ -7,9 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0524LongestWordInDictionaryThroughDeleting test = new _0524LongestWordInDictionaryThroughDeleting();
-    String s = "foobarfoobar";
-    List<String> d = Arrays.asList("foo","bar");
-		System.out.println(test.findLongestWord(s, d));
+    _0936StampingTheSequence test = new _0936StampingTheSequence();
+		System.out.println(Arrays.toString(test.movesToStamp("mda", "mdadddaaaa")));
 	}
 }
