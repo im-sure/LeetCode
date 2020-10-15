@@ -7,7 +7,8 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _1371FindTheLongestSubstringContainingVowelsInEvenCounts test = new _1371FindTheLongestSubstringContainingVowelsInEvenCounts();
-		System.out.println(test.findTheLongestSubstring("leetcodeisgreat"));
+    _0939MinimumAreaRectangle test = new _0939MinimumAreaRectangle();
+    int[][] points = {{1,1},{1,3},{3,1},{3,3},{4,1},{4,3}};
+		System.out.println(test.minAreaRect(points));
 	}
 }
