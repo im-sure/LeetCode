@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _1163LastSubstringInLexicographicalOrder test = new _1163LastSubstringInLexicographicalOrder();
-		System.out.println(test.lastSubstring("abab"));
+    _0927ThreeEqualParts test = new _0927ThreeEqualParts();
+		System.out.println(Arrays.toString(test.threeEqualParts(new int[]{0, 0, 0, 0, 0})));
 	}
 }
