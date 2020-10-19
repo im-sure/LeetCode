@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0709ToLowerCase test = new _0709ToLowerCase();
-		System.out.println(test.toLowerCase("LOVELY"));
+    _1041RobotBoundedInCircle test = new _1041RobotBoundedInCircle();
+		System.out.println(test.isRobotBounded("GL"));
 	}
 }
