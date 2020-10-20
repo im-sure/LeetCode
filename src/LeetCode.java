@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _1041RobotBoundedInCircle test = new _1041RobotBoundedInCircle();
-		System.out.println(test.isRobotBounded("GL"));
+    _1016BinaryStringWithSubstringsRepresenting1ToN test = new _1016BinaryStringWithSubstringsRepresenting1ToN();
+		System.out.println(test.queryString("0", 1));
 	}
 }
