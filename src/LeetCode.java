@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _1441BuildAnArrayWithStackOperations test = new _1441BuildAnArrayWithStackOperations();
-		System.out.println(test.buildArray(new int[]{2, 3, 4}, 4));
+    _0214ShortestPalindrome test = new _0214ShortestPalindrome();
+		System.out.println(test.shortestPalindrome("abcd"));
 	}
 }
