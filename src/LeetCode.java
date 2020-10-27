@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0034FindFirstAndLastPositionOfElementInSortedArray test = new _0034FindFirstAndLastPositionOfElementInSortedArray();
-		System.out.println(Arrays.toString(test.searchRange(new int[]{0,0,2,3,4,4,4,5}, 5)));
+    _0079WordSearch test = new _0079WordSearch();
+		System.out.println(test.exist(new char[][]{{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}}, "ABCCED"));
 	}
 }
