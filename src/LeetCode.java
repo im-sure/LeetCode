@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0079WordSearch test = new _0079WordSearch();
-		System.out.println(test.exist(new char[][]{{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}}, "ABCCED"));
+    _0739DailyTemperatures test = new _0739DailyTemperatures();
+		System.out.println(Arrays.toString(test.dailyTemperatures(new int[]{73, 74, 75, 71, 69, 72, 76, 73})));
 	}
 }
