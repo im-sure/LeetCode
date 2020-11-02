@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0739DailyTemperatures test = new _0739DailyTemperatures();
-		System.out.println(Arrays.toString(test.dailyTemperatures(new int[]{73, 74, 75, 71, 69, 72, 76, 73})));
+    _0005LongestPalindromicSubstring test = new _0005LongestPalindromicSubstring();
+		System.out.println(test.longestPalindrome("babad"));
 	}
 }
