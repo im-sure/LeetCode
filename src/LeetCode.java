@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0221MaximalSquare test = new _0221MaximalSquare();
-		System.out.println(test.maximalSquare(new char[][]{{'1','0','1','0','0'},{'1','0','1','1','1'},{'1','1','1','1','1'},{'1','0','0','1','0'}}));
+    _0084LargestRectangleInHistogram test = new _0084LargestRectangleInHistogram();
+		System.out.println(test.largestRectangleArea(new int[]{2,1,5,6,2,3}));
 	}
 }
