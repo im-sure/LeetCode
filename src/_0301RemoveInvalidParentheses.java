@@ -9,6 +9,9 @@ public class _0301RemoveInvalidParentheses {
     if (s == null || s.isEmpty()) {
       return Arrays.asList("");
     }
+    if (isValid(s)) {
+      return Arrays.asList(s);
+    }
     Set<String> strs = new HashSet<>();
     strs.add(s);
     int length = s.length();
