@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0200NumberOfIslands test = new _0200NumberOfIslands();
-		System.out.println(test.numIslands(new char[][]{{'1','1','1'},{'0','1','0'},{'1','1','1'}}));
+    _0042TrappingRainWater test = new _0042TrappingRainWater();
+		System.out.println(test.trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1}));
 	}
 }
