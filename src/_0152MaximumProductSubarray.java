@@ -50,7 +50,6 @@ public class _0152MaximumProductSubarray {
       n = 0;
       tmp = 0;
       for (int i = start; i < end; i++) {
-        System.out.println("***********: " + nums[i]);
         if (n < 1) {
           if (nums[i] < 0) {
             n++;
@@ -63,7 +62,6 @@ public class _0152MaximumProductSubarray {
             tmp *= nums[i];
           }
         }
-        System.out.println("***********tmp: " + tmp);
       }
       max = Math.max(max, tmp);
     }
