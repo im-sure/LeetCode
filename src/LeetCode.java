@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0560SubarraySumEqualsK test = new _0560SubarraySumEqualsK();
-		System.out.println(test.subarraySum(new int[]{1, 1, 1}, 2));
+    _0152MaximumProductSubarray test = new _0152MaximumProductSubarray();
+		System.out.println(test.maxProduct(new int[]{3, -1, 4}));
 	}
 }
