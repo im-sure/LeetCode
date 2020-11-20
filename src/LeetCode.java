@@ -7,7 +7,9 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0322CoinChange test = new _0322CoinChange();
-		System.out.println(test.coinChange(new int[]{2}, 3));
+    _0031NextPermutation test = new _0031NextPermutation();
+    int[] nums = {1, 2, 4, 6, 5, 3, 1};
+    test.nextPermutation(nums);
+		System.out.println(Arrays.toString(nums));
 	}
 }
