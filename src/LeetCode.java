@@ -7,9 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0031NextPermutation test = new _0031NextPermutation();
-    int[] nums = {1, 2, 4, 6, 5, 3, 1};
-    test.nextPermutation(nums);
-		System.out.println(Arrays.toString(nums));
+    _0076MinimumWindowSubstring test = new _0076MinimumWindowSubstring();
+		System.out.println(test.minWindow("a", "a"));
 	}
 }
