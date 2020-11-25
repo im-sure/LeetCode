@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0076MinimumWindowSubstring test = new _0076MinimumWindowSubstring();
-		System.out.println(test.minWindow("a", "a"));
+    _0085MaximalRectangle test = new _0085MaximalRectangle();
+		System.out.println(test.maximalRectangle(new char[][]{{'1','0','1','0','0'},{'1','0','1','1','1'},{'1','1','1','1','1'},{'1','0','0','1','0'}}));
 	}
 }
