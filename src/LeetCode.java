@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0017LetterCombinationsOfAPhoneNumber test = new _0017LetterCombinationsOfAPhoneNumber();
-		System.out.println(test.letterCombinations("23"));
+    _0003LongestSubstringWithoutRepeatingCharacters test = new _0003LongestSubstringWithoutRepeatingCharacters();
+		System.out.println(test.lengthOfLongestSubstring("abba"));
 	}
 }
