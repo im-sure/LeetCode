@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0207CourseSchedule test = new _0207CourseSchedule();
-		System.out.println(test.canFinish(2, new int[][]{{0, 1}}));
+    _0055JumpGame test = new _0055JumpGame();
+		System.out.println(test.canJump(new int[]{3, 2, 1, 0, 4}));
 	}
 }
