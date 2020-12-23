@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0055JumpGame test = new _0055JumpGame();
-		System.out.println(test.canJump(new int[]{3, 2, 1, 0, 4}));
+    _0072EditDistance test = new _0072EditDistance();
+		System.out.println(test.minDistance("horse", "ros"));
 	}
 }
