@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0312BurstBalloons test = new _0312BurstBalloons();
-    System.out.println(test.maxCoins(new int[]{3,1,5,8}));
+    _0139WordBreak test = new _0139WordBreak();
+    System.out.println(test.wordBreak("leetcode", Arrays.asList("leet", "code")));
 	}
 }
