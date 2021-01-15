@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0139WordBreak test = new _0139WordBreak();
-    System.out.println(test.wordBreak("leetcode", Arrays.asList("leet", "code")));
+    _00163SumClosest test = new _00163SumClosest();
+    System.out.println(test.threeSumClosest(new int[]{1,2,4,8,16,32,64,128}, 82));
 	}
 }
