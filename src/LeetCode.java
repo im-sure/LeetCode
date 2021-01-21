@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0978LongestTurbulentSubarray test = new _0978LongestTurbulentSubarray();
-    System.out.println(test.maxTurbulenceSize(new int[]{100}));
+    _1024VideoStitching test = new _1024VideoStitching();
+    System.out.println(test.videoStitching(new int[][]{{0,5},{6,8}}, 7));
 	}
 }
