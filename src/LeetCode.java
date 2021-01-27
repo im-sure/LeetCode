@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _1024VideoStitching test = new _1024VideoStitching();
-    System.out.println(test.videoStitching(new int[][]{{0,5},{6,8}}, 7));
+    _0174DungeonGame test = new _0174DungeonGame();
+    System.out.println(test.calculateMinimumHP(new int[][]{{1,-3,3},{0,-2,0},{-3,-3,-3}}));
 	}
 }
