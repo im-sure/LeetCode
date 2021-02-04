@@ -7,7 +7,9 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0140WordBreakII test = new _0140WordBreakII();
-    System.out.println(test.wordBreak("pineapplepenapple", Arrays.asList("apple", "pen", "applepen", "pine", "pineapple")));
+    _0324WiggleSortII test = new _0324WiggleSortII();
+    int[] nums = new int[]{1,5,1,1,6,4};
+    test.wiggleSort(nums);
+    System.out.println(Arrays.toString(nums));
   }
 }
