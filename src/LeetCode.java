@@ -7,9 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0324WiggleSortII test = new _0324WiggleSortII();
-    int[] nums = new int[]{1,5,1,1,6,4};
-    test.wiggleSort(nums);
-    System.out.println(Arrays.toString(nums));
+    _0134GasStation test = new _0134GasStation();
+    System.out.println(test.canCompleteCircuit(new int[]{2,3,4}, new int[]{3,4,3}));
   }
 }
