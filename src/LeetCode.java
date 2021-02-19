@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0134GasStation test = new _0134GasStation();
-    System.out.println(test.canCompleteCircuit(new int[]{2,3,4}, new int[]{3,4,3}));
+    _0054SpiralMatrix test = new _0054SpiralMatrix();
+    System.out.println(test.spiralOrder(new int[][]{{1,2,3,4},{5,6,7,8},{9,10,11,12}}));
   }
 }
