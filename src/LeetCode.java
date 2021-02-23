@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0210CourseScheduleII test = new _0210CourseScheduleII();
-    System.out.println(Arrays.toString(test.findOrder(7, new int[][]{{1,0},{0,3},{0,2},{3,2},{2,5},{4,5},{5,6},{2,4}})));
+    _0557ReverseWordsInAStringIII test = new _0557ReverseWordsInAStringIII();
+    System.out.println(test.reverseWords(" Let's take LeetCode contest "));
   }
 }
