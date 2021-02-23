@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0054SpiralMatrix test = new _0054SpiralMatrix();
-    System.out.println(test.spiralOrder(new int[][]{{1,2,3,4},{5,6,7,8},{9,10,11,12}}));
+    _0210CourseScheduleII test = new _0210CourseScheduleII();
+    System.out.println(Arrays.toString(test.findOrder(7, new int[][]{{1,0},{0,3},{0,2},{3,2},{2,5},{4,5},{5,6},{2,4}})));
   }
 }
