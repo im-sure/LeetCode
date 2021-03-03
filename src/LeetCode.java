@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0179LargestNumber test = new _0179LargestNumber();
-    System.out.println(test.largestNumber(new int[]{0, 0}));
+    _0315CountOfSmallerNumbersAfterSelf test = new _0315CountOfSmallerNumbersAfterSelf();
+    System.out.println(test.countSmaller(new int[]{5,2,6,1}));
   }
 }
