@@ -7,14 +7,12 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0130SurroundedRegions test = new _0130SurroundedRegions();
-    char[][] board = new char[][]{{'X','X','X','X'},{'X','O','O','X'},{'X','X','O','X'},{'X','O','X','X'}};
-    test.solve(board);
-    for (int x = 0; x < board.length; x++) {
-      for (int y = 0; y < board[0].length; y++) {
-        System.out.print(board[x][y]);
-      }
-      System.out.println();
-    }
+    _0222CountCompleteTreeNodes test = new _0222CountCompleteTreeNodes();
+    _0222CountCompleteTreeNodes.TreeNode n1 = test.new TreeNode();
+    _0222CountCompleteTreeNodes.TreeNode n2 = test.new TreeNode();
+    _0222CountCompleteTreeNodes.TreeNode n3 = test.new TreeNode();
+    n1.left = n2;
+    n1.right = n3;
+    System.out.println(test.countNodes(n1));
   }
 }
