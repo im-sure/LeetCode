@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _1705MaximumNumberOfEatenApples test = new _1705MaximumNumberOfEatenApples();
-    System.out.println(test.eatenApples(new int[]{3,0,0,0,0,2}, new int[]{3,0,0,0,0,2}));
+    _1095FindInMountainArray test = new _1095FindInMountainArray();
+    System.out.println(test.findInMountainArray(1, Arrays.asList(1,2,5,1)));
   }
 }
