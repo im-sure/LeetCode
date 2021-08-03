@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _1095FindInMountainArray test = new _1095FindInMountainArray();
-    System.out.println(test.findInMountainArray(1, Arrays.asList(1,2,5,1)));
+    _00184Sum test = new _00184Sum();
+    System.out.println(test.fourSum(new int[]{1,0,-1,0,0,-2,-2,2}, 0));
   }
 }
