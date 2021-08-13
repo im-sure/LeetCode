@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0029DivideTwoIntegers test = new _0029DivideTwoIntegers();
-    System.out.println(test.divide(-2147483648, 2));
+    _0030SubstringwithConcatenationOfAllWords test = new _0030SubstringwithConcatenationOfAllWords();
+    System.out.println(test.findSubstring("wordgoodgoodgoodbestword", new String[]{"word","good","best","word"}));
   }
 }
