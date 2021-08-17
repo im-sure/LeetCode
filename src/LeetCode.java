@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0306AdditiveNumber test = new _0306AdditiveNumber();
-    System.out.println(test.isAdditiveNumber("199100199"));
+    _0035SearchInsertPosition test = new _0035SearchInsertPosition();
+    System.out.println(test.searchInsert(new int[]{1}, 2));
   }
 }
