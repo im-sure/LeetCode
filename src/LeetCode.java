@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0047PermutationsII test = new _0047PermutationsII();
-    System.out.println(test.permuteUnique(new int[]{2, 2, 1, 1}));
+    _0050Pow test = new _0050Pow();
+    System.out.println(test.myPow(2.0, -2));
   }
 }
