@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LeetCode {
 	public static void main(String[] args) {
-    _0052NQueensII test = new _0052NQueensII();
-    System.out.println(test.totalNQueens(8));
+    _0060PermutationSequence test = new _0060PermutationSequence();
+    System.out.println(test.getPermutation(1, 1));
   }
 }
