@@ -19,7 +19,7 @@ public class _0075SortColors {
         		}
         	} else if (nums[r] == 2) {
         		nums[r] = nums[b];
-				nums[b--] = 2;
+				    nums[b--] = 2;
         	} else {
         		r++;
         		index++;
