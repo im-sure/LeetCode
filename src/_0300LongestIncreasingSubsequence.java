@@ -9,12 +9,11 @@ public class _0300LongestIncreasingSubsequence {
     		boolean add = true;
     		int index = 0;
     		int num = nums[i];
-			for (int n : list) {
+			  for (int n : list) {
     			if (num == n) {
     				add = false;
     				break;
-    			}
-    			else if (num < n) {
+    			} else if (num < n) {
     				list.remove(index);
     				list.add(index, num);
     				add = false;
@@ -23,6 +22,6 @@ public class _0300LongestIncreasingSubsequence {
     		}
     		if (add) list.add(num);
     	}
-        return list.size();
+      return list.size();
     }
 }
